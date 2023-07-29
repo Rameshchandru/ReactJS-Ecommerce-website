@@ -1,0 +1,119 @@
+* {
+    list-style: none;
+    text-decoration: none;
+  }
+  .leftside {
+    width: 23%;
+    height: 1000px;
+    text-align: left;
+    position: absolute;
+    top: 600px;
+    left: 80px;
+  }
+  .sort {
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  .sort select option {
+    border: none;
+  }
+  .sort label {
+    color: gray;
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+  .sort select {
+    border: none;
+    width: 220px;
+  }
+  .filters {
+    border: 1px solid lightgray;
+    height: 1100px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 25px;
+  }
+  .filters p {
+    color: gray;
+    font-size: 12px;
+    position: relative;
+    bottom: 15px;
+    margin-bottom: 15px;
+  }
+  .leftside hr {
+    border: 1px solid lightgray;
+    width: 90%;
+    position: relative;
+    right: 15px;
+  }
+  .category p {
+    font-size: 18px;
+    color: black;
+  }
+  .icon {
+    display: inline;
+    float: right;
+    margin-right: 30px;
+  }
+  
+  /* Right side */
+  .rightside {
+    width: 70%;
+    height: 1000px;
+    /* background-color: royalblue; */
+    position: absolute;
+    right: 10px;
+    top: 600px;
+  }
+  .row1 {
+    display: flex;
+    width: 0;
+  }
+  .row2 {
+    display: flex;
+    width: 0;
+  }
+  .row3 {
+    display: flex;
+    width: 0;
+  }
+  .card {
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #eeeeee;
+    border-radius: 8px;
+  }
+  .card p {
+    text-align: left;
+    padding-left: 20px;
+    color: gray;
+  }
+  .onwards {
+    color: lightgray;
+    font-size: 13px;
+  }
+  .card h3 {
+    text-align: left;
+    padding-left: 20px;
+    position: relative;
+    bottom: 20px;
+  }
+  .btn2 {
+    background-color: lightgreen;
+    width: 50%;
+  }
+  .card button {
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    position: relative;
+    bottom: 15px;
+  }
+  

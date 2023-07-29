@@ -1,0 +1,41 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+  }
+  li {
+    text-decoration: none;
+    display: inline;
+  }
+  .righthead li {
+    margin-left: 30px;
+    margin-right: 30px;
+    border-right: 2px solid grey;
+    padding-right: 15px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .lefthead input {
+    position: relative;
+    left: 20px;
+    height: 40px;
+    width: 400px;
+    bottom: 15px;
+  }
+  .lefthead {
+    margin-left: 50px;
+  }
+  input::placeholder {
+    opacity: 0.5;
+  }
+  hr {
+    position: relative;
+    bottom: 20px;
+  }
+  img {
+    position: relative;
+    bottom: 5px;
+  }
+  
